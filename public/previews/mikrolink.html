@@ -1,0 +1,115 @@
+﻿<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MikroLink Preview</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: "Cairo", "Segoe UI", Tahoma, sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: #f8fbff;
+        color: #0f172a;
+      }
+      .app {
+        min-height: 100vh;
+        padding: 20px 18px 28px;
+        background: linear-gradient(160deg, #e8f1ff 0%, #f8fbff 60%);
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 18px;
+      }
+      .badge {
+        background: #dbeafe;
+        color: #1d4ed8;
+        padding: 6px 12px;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 600;
+      }
+      .title {
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .card {
+        background: #ffffff;
+        border-radius: 18px;
+        padding: 14px;
+        box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+        margin-bottom: 14px;
+      }
+      .card h2 {
+        margin: 0 0 6px;
+        font-size: 15px;
+      }
+      .card p {
+        margin: 0;
+        font-size: 12px;
+        color: #475569;
+        line-height: 1.6;
+      }
+      .progress {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        margin-top: 10px;
+      }
+      .progress div {
+        height: 6px;
+        border-radius: 999px;
+        background: #e2e8f0;
+      }
+      .progress div.active {
+        background: #2563eb;
+      }
+      .footer {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 11px;
+        color: #64748b;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <div class="header">
+        <div>
+          <div class="title">MikroLink</div>
+          <div style="font-size: 12px; color: #475569;">متابعة الرحلات لحظة بلحظة</div>
+        </div>
+        <span class="badge">تشغيل مباشر</span>
+      </div>
+
+      <div class="card">
+        <h2>رحلة اليوم</h2>
+        <p>ميناء الأدبية → العاشر من رمضان</p>
+        <div class="progress">
+          <div class="active"></div>
+          <div class="active"></div>
+          <div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>السائق</h2>
+        <p>أحمد سالم · آخر تحديث: قبل ٣ دقائق</p>
+      </div>
+
+      <div class="card">
+        <h2>تواصل سريع</h2>
+        <p>تم إرسال تحديث: "وصلنا أول محطة ومكملين المسار"</p>
+      </div>
+
+      <div class="footer">ده مجرد معاينة للويب - استبدلها ببناء Flutter الحقيقي</div>
+    </div>
+  </body>
+</html>

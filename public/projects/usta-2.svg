@@ -1,0 +1,12 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0f2fe" />
+      <stop offset="100%" stop-color="#bfdbfe" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="48" fill="url(#bg)" />
+  <rect x="120" y="180" width="360" height="220" rx="32" fill="#93c5fd" />
+  <rect x="520" y="320" width="520" height="240" rx="32" fill="#60a5fa" />
+  <text x="80" y="140" font-size="52" font-family="Arial" fill="#0f172a">USTA Flow</text>
+</svg>
